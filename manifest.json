@@ -1,0 +1,18 @@
+{
+  "name": "JM Trianon - Ordem de Serviço",
+  "short_name": "JM Trianon OS",
+  "description": "Ordem de Serviço - JM Trianon Mecânica de Veículos",
+  "start_url": "./2_cabecalho.html",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#d32f2f",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
