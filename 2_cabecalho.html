@@ -177,10 +177,19 @@ body { background: #e0e0e0; font-family: 'Source Sans 3', sans-serif; padding-bo
 #install-banner.show { display: flex; }
 #install-banner button { background: #f9a825; color: #000; border: none; border-radius: 8px; padding: 6px 14px; font-weight: 700; font-size: 13px; }
 
-/* ZOOM CONTROLADO */
+/* SCROLL NATIVO */
 .page-wrap {
-  overflow: auto;
+  overflow-x: auto;
+  overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+}
+/* Garante que a página não quebra ao dar zoom */
+#os-page {
+  touch-action: auto;
+}
+/* Impede que inputs bloqueiem o scroll */
+#os-page input {
+  touch-action: auto;
 }
 </style>
 </head>
