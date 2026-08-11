@@ -110,9 +110,9 @@ body { background: #e0e0e0; font-family: 'Source Sans 3', sans-serif; padding-bo
   display: block;
 }
 .services-table tr:nth-child(even) td { background: #f9f9f9; }
-.col-qty  { width: 44px; }
-.col-unit { width: 72px; }
-.col-tot  { width: 72px; }
+.col-qty  { width: 36px; }
+.col-unit { width: 60px; }
+.col-tot  { width: 60px; }
 .col-qty input, .col-unit input, .col-tot input { text-align: center; }
 .col-unit input, .col-tot input { text-align: right; padding-right: 5px; }
 
@@ -121,7 +121,7 @@ body { background: #e0e0e0; font-family: 'Source Sans 3', sans-serif; padding-bo
 .obs-area { flex: 1; font-size: 10px; color: #222; line-height: 1.6; }
 .obs-area .obs-title { font-weight: 700; font-size: 11px; color: var(--red); }
 .obs-area .agree-line { margin-top: 5px; font-size: 10px; }
-.totals-area { width: 220px; flex-shrink: 0; }
+.totals-area { width: 180px; flex-shrink: 0; }
 .totals-table { width: 100%; border-collapse: collapse; font-size: 11px; }
 .totals-table td { padding: 0; font-size: 11px; border: 1px solid var(--border); height: 22px; vertical-align: middle; }
 .t-label { background: var(--dark); color: #fff; font-family: 'Oswald', sans-serif; font-size: 11px; padding: 0 6px; white-space: nowrap; }
@@ -143,7 +143,11 @@ body { background: #e0e0e0; font-family: 'Source Sans 3', sans-serif; padding-bo
 
 /* MEDIA */
 @media (max-width: 480px) {
-  .page { padding: 6mm 5mm; }
+  .page { padding: 4mm 3mm; }
+  .services-table { font-size: 10px; }
+  .services-table th { font-size: 9px; padding: 3px 2px; }
+  .totals-area { width: 160px; }
+  .footer-area { gap: 6px; }
   .toolbar-title { display: none; }
   .btn { padding: 6px 10px; font-size: 11px; }
 }
